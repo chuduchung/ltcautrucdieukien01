@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let a = +prompt("Điểm kiểm tra:");
+        let b = +prompt("Điểm giữa kì :");
+        let c = +prompt("Điểm cuối kì:");
+        let  diemtrungbinh = (a + b + c) / 3;
+        if (diemtrungbinh >= 8) {
+            alert("Học lực giỏi");
+        } else if (diemtrungbinh >= 6.5) {
+            alert("Học lực khá");
+        }else if( diemtrungbinh >= 5) {
+            alert("Học lực trung bình")
+        }else {
+            alert("Học lực yếu")
+        }
+
+    </script>
+
+</body>
+</html>
